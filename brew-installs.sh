@@ -19,6 +19,7 @@ BREW_PREFIX=$(brew --prefix)
 brew install wget --with-iri
 brew install git
 brew install zsh
+brew install node
 
 #Apps
 brew install --cask google-chrome
@@ -31,3 +32,6 @@ brew install --cask docker
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+#npm
+npm install -g yarn
